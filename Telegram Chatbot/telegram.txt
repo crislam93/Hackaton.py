@@ -1,0 +1,6 @@
+botfather en telegram 
+/start
+/newbot
+
+asignar nombres
+el segundo nombre tiene que terminar en bot 

@@ -1,3 +1,4 @@
+#descargar modulo: pip install python-telegram-bot
 from telegram.ext import Updater, CommandHandler
 
 def main():
