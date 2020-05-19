@@ -3,7 +3,7 @@ from telegram.ext import Updater, CommandHandler
 
 def main():
     #instanciamos el Updater
-    updater = Updater(toke=open("/token.txt").read(), use_context= True)
+    updater = Updater(token=open("Telegram Chatbot/token.txt").read(), use_context= True)
     
     #añadimos un manejador al comando start de Telegram
     updater.dispatcher.add_handler(CommandHandler("start", start))
